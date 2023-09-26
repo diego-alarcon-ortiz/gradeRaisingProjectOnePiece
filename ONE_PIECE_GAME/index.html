@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piratycoon</title>
+    <link rel="icon" href="./media/Chopper.webp">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div id="contenedorSecciones">
+        <div class="secciones" id="seccionConstrucciones">
+            <div class="contenedorTitulo"><img src="./media/cartelTitulo.png" alt="">
+                <h2>CONSTRUIR</h2>
+            </div>
+            <div id="construccionesOverflow"></div>
+            <div class="contenedorRecursos" id="recursosConstrucciones"></div>
+        </div>
+
+        <div class="secciones" id="seccionAldea"></div>
+
+        <div class="secciones" id="seccionNavegar">
+            <div class="contenedorTitulo">
+                <img src="./media/cartelTitulo.png" alt="">
+                <h2 id="nav">NAVEGAR</h2>
+            </div>
+            <div class="pulsadores2" id="botonMapa">
+                <img class="imgPulsadores" src="./media/boton2.png" alt="">
+                <p>MAPA</p>
+            </div>
+            <!-- <div class="txt">
+                <pre></pre>
+            </div> -->
+        </div>
+    </div>
+
+    <section class="notificacionNormal" id="fondoNegroMapa"></section>
+    <div id="contenedorMapa">
+        <div id="contenedorBotonesMapa">
+            <div class="botonesMapa" id="botonAmpliar">+</div>
+            <div class="botonesMapa" id="botonReducir">-</div>
+            <div class="botonesMapa" id="botonSalir">X</div>
+        </div>
+        <div id="divMapa">
+            <!-- East blue -->
+            <img id="mapa" src="./media/map.jpeg" alt="">
+            <div class="islas" id="goa"></div>
+            <div class="islas" id="shimotsuki"></div>
+            <div class="islas" id="sixis"></div>
+            <div class="islas" id="baratie"></div>
+            <div class="islas" id="oykot"></div>
+            <div class="islas" id="polestar"></div>
+            <!-- Reverse -->
+            <div class="islas" id="reverse"></div>
+            <!-- South blue -->
+            <div class="islas" id="briss"></div>
+            <div class="islas" id="sorbet"></div>
+            <div class="islas" id="black"></div>
+            <!-- North blue -->
+            <div class="islas" id="flevance"></div>
+            <div class="islas" id="germa66"></div>
+            <div class="islas" id="swallow"></div>
+            <div class="islas" id="rubeck"></div>
+            <!-- West blue -->
+            <div class="islas" id="lascamp"></div>
+            <div class="islas" id="ohara"></div>
+            <div class="islas" id="toroa"></div>
+            <div class="islas" id="kanokuni"></div>
+            <div class="islas" id="ilusia"></div>
+            <!-- Paradise -->
+            <div class="islas" id="twin"></div>
+            <div class="islas" id="little"></div>
+            <div class="islas" id="arabasta"></div>
+            <div class="islas" id="skypea"></div>
+            <div class="islas" id="water7"></div>
+            <div class="islas" id="triangle"></div>
+            <div class="islas" id="shabondy"></div>
+            <div class="islas" id="marineford"></div>
+            <div class="islas" id="fishman"></div>
+            <!-- New World -->
+            <div class="islas" id="newmarineford"></div>
+            <div class="islas" id="punkhazard"></div>
+            <div class="islas" id="dressrosa"></div>
+            <div class="islas" id="wano"></div>
+            <div class="islas" id="zou"></div>
+            <div class="islas" id="totoland"></div>
+            <div class="islas" id="baltigo"></div>
+            <div class="islas" id="lodestar"></div>
+            <div class="islas" id="elbaf"></div>
+            <div class="islas" id="punkhazard"></div>
+            <div class="islas" id="falsolaughtale"></div>
+        </div>
+    </div>
+
+    <div class="contador">TIEMPO</div>
+    <div id="on" class="controlesAudio"><img id="imgAudio" src="./media/audioOn.png" alt=""></div>
+    <div class="audio">
+        <audio autoplay loop>
+            <source src="./media/intro.mp3" type="audio/mp3">
+        </audio>
+        <audio loop>
+            <source src="./media/main.mp3" type="audio/mp3">
+        </audio>
+        <audio class="audioClick">
+            <source src="./media/click.mp3" type="audio/mp3">
+        </audio>
+        <audio class="nuevaConstruccion">
+            <source src="./media/nuevaConstruccion.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>
+
+</html>
